@@ -4,6 +4,7 @@ from termcolor import colored
 from sys import platform
 from time import sleep
 
+
 anim=""
 def animation(ascii):
     print(colored("""\n              | ￣￣￣￣￣￣￣￣￣￣￣￣|
