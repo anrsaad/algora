@@ -1,4 +1,3 @@
-
 import os, sys, pyfiglet, datetime
 from termcolor import colored
 from sys import platform
@@ -7,25 +6,33 @@ from time import sleep
 
 anim=""
 def animation(ascii):
-    print(colored("""\n              | ￣￣￣￣￣￣￣￣￣￣￣￣|
-              |      SAHRA MAGHRIBIYA   |
-              |＿＿＿＿＿＿＿＿＿＿＿＿ |
-                    \  (^_^) /
-                      \    /
-                        ——
-                       |  |
-                       |_ |_ """, "yellow"))
+    print(colored("""\n\n\n\n
+      ================================================================== 
+      =                          _    _                                =
+      =                         / \  | | __ _  ___  _ __ __ _          =
+      =                        / _ \ | |/ _` |/ _ \| '__/ _` |         =
+      =                       / ___ \| | (_| | (_) | | | (_| |         =
+      =                      /_/   \_\_|\__, |\___/|_|  \__,_|         =
+      =                                 |___/                          =
+      =                                         Numberliste generator. =
+      =                                                                =
+      ==================================================================
+                             """, "yellow"))
+
+
 
 
 random_file = str(datetime.datetime.now().microsecond)
 if platform == "win32" :
+    os.system("cls")
     animation(anim)
-    sleep(1.0)
+    sleep(1.5)
     os.system("cls")
     os.chdir("C:\\Users\\Public\\Desktop")
     md = os.getcwd()
     mdfile = md +"\\wordlist"+random_file+".txt"
 elif platform == "linux" or platform == "linux2" :
+    os.system("clear")
     animation(anim)
     sleep(1.5)
     os.system("clear")
@@ -39,8 +46,8 @@ mini= colored("\nEnter the Minimum Number : ", "blue", attrs=["dark"])
 maxi= colored("\nEnter the Maximum Number : ", "blue", attrs=["dark"])
 saut = "\n"
 space_line = " "
-
-print(pyfiglet.figlet_format("Algora"),space_line *10, "Numberliste generator")
+print("\n\n")
+print(pyfiglet.figlet_format("                      Algora"),space_line *36, "Numberliste generator.")
 
 warn = colored("[!]", "yellow") 
 print(saut * 2)
@@ -52,6 +59,7 @@ user_2 = input(maxi)
 line2 = colored("__", "red")
 bar2 = colored("|", "red")
 space2 =" "
+
 
 if user_1.isdigit() and user_2.isdigit():
 
@@ -79,7 +87,7 @@ if user_1.isdigit() and user_2.isdigit():
         sign = colored("~~~", "yellow")
         colormsg = colored("You find you file on desktop","cyan")
         colormsg1 = colored("Every file genrated took the same name + a random number","cyan")
-        colormsg2 = colored("Program developed by : Anrsaad","cyan")
+        colormsg2 = colored("Program developed by Saad Anouar","cyan")
         print(space, sign, colormsg, "\n", space, sign, colormsg1, "\n",space, sign, colormsg2, "\n")
         print(jump *10)
         file=open(mdfile, "a")
