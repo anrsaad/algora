@@ -7,12 +7,78 @@
 =                                 |___/                          =
 =                                      Numberliste generator.    =
 =                                                                =
+= https://github.com/anrsaad/algora 
+= https://www.youtube.com/c/TechnoTech3301                       =                             =
+= developer : Saad Anouar					 =                                                               =
 ==================================================================
 
 what's Algora?
+--------------
+algora it's a program generate a texted file on desktop with a list of numbers
+from the number you want to start accounting by him to the last numbers you want reaching it
+and write everynumber in single line
 
-where's the file created ?
 
-what use for ?
+where's the file ?
+------------------
+the file like already say, you find him on your desktop by "worldlist" name and some random numbers to not 
+crush the file before.
+also the program work on windows and linux, only this two operation system, sorry for rest maybe i update it later
+
+how i run algora ?
+-----------------
+so, to run algora program, firstly you need python language installed on your operation system (read install python)
+open command prompt (CMD) and write this line bofore start the program :
+		-pip install termcolor
+		-pip install pyfiglet
+		-pip installdatetime     (maybe you find module alredy installed anyway it's okey
+then if you work on windows type on command prompt : "py algora.py" or maybe type "python algora.py" and tape enter, if you find some difficult
+type py and slide the file to command prompt
+and if you work under Linux system, open terminal and write this line :
+		-sudo apt-get install -y python-termcolor
+		-sudo apt-get install -y python-pyfiglet
+		-sudo apt-get install -y python-datetime    (maybe installed)
+then type on terminal : python3 algora.py
+	
+	
+what "algora" use for ?
+-----------------------
+i dont really care, you can use him anywhere you want lol, but it's really helpful for brute-force cracking by loopig
+into many numbers to unlock crypte
+like : wirless pin
+
+
+how i install python?
+---------------------
+on windows:
+to easy just go website https://www.pyhton.org/, after go download button and click on it, download the file 
+and install it by clicking next until the end.
+configure pyhton to path by clicking on control panel / system ans security / system / advenced system settings
+a windows popup on advanced / envirenment variable / system variable / click path and copy the link to your python folder / then ok 
+to test if its instaled enter command prompt and type : python
+on linux:
+you can check if python already instaled by open terminal and type : python --version, if its instaled on your system a message show (python 3.5.2)
+3.5.2 it's the version of intsalled python on system you need to update it, but if is'nt installed you type (pkg install python3)
+other way to install python3 on linux :
+visite https://www.pyhton.org/ and download python 3.7 version linux, after downloading the file go terminal and type :
+		- cd Desktop 
+		- ls
+		- cd python-3.7.1   (you can maybe find other version downloaded just type the correct folder after cd)
+		- ls
+		- ./configure
+		- make   (wait the installation finish)
+		- su root
+		- make  install 
+now python should be install
+
+update python :
+--------------
+on linux enter terminal and type :
+				 sudo apt install -y python3-pip
+				 ln -s /usr/bin/pip3 /usr/bin/pip
+type : 
+				python --version 
+to show the new version
+
 
 
