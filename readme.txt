@@ -1,5 +1,5 @@
 ALGORA 
-    Numberlist
+    Numberlist generators. 
 
 https://github.com/anrsaad/algora 
 https://www.youtube.com/c/TechnoTech3301                    
@@ -7,8 +7,11 @@ Developer by Saad Anouar
 
 
 Algora : it's a program that you can created a wordlist of numbers
-between two given number
+between two given number. 
+Very helpful for hacking by bruteforce.
 
+For more description about program, read help file 
+ 
 
 run program :
 
