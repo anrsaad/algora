@@ -2,7 +2,7 @@ ALGORA
     Numberlist generators. 
 
 https://github.com/anrsaad/algora 
-https://www.youtube.com/c/TechnoTech3301                    
+https://www.youtube.com/codenza                 
 Developer by Saad Anouar	
 
 
